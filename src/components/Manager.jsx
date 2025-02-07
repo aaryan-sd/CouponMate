@@ -115,7 +115,7 @@ const Manager = () => {
       <div className="p-2 md:p-0 md:mycontainer">
         <h1 className="m-6 text-4xl text-center font-bold text-blue-200">
           
-          Coupon Mate
+          CouponMate
           
         </h1>
         <div className="flex flex-col p-4 text-white gap-8 items-center">
@@ -156,7 +156,7 @@ const Manager = () => {
             Your Coupons :-
           </h1>
           {passwordArray.length === 0 && (
-            <div className="text-white text-center">No Coupons to added</div>
+            <div className="text-white text-center">No Coupons added</div>
           )}
           {passwordArray.length != 0 && (
             <table className="table-fixed w-full text-white rounded-md overflow-hidden">
